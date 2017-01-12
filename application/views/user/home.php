@@ -72,6 +72,9 @@
     </header>
 
     <a href="<?php echo base_url('index.php/Orders/newOrder'); ?>"><button>New order</button></a>
+    <a href="<?php echo base_url('index.php/Orders/viewOrder'); ?>"><button>View orders</button></a>
+    <a href="<?php echo base_url('index.php/Orders/viewOrder'); ?>"><button>View profile</button></a>
+    <a href="<?php echo base_url('index.php/Orders/viewOrder'); ?>"><button>Logout</button></a>
 
 
 </body>
