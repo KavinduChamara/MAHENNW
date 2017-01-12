@@ -16,7 +16,7 @@
   <body>
   <div class="row">
 	<div class="col-xs-12">
-	<form class="form-horizontal">
+	<form class="form-horizontal" action="<?php base_url('index.php/Orders/makeNeworder'); ?>">
 	<fieldset>
 
 	<div class="col-xs-12 text-center">

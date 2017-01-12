@@ -71,7 +71,7 @@
 
     </header>
 
-
+    <a href="<?php echo base_url('index.php/Orders/newOrder'); ?>"><button>New order</button></a>
 
 
 </body>
