@@ -22,14 +22,13 @@ class Login_d extends CI_Model{
 
         $user_data = array(
             'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
-            'FirstName' => $this->input->post('FirstName'),
+            'LastName' => $this->input->post('LastName'),
+            'UID' => $this->input->post('UID'),
+            'Email' => $this->input->post('E-mail'),
+            'Address' => $this->input->post('Address'),
+            'Telephone' => $this->input->post('Telephone'),
+            'Password' => $this->input->post('Password'),
+            
 
         );
         #$res = $this->db->insert('user_details', $user_data);
