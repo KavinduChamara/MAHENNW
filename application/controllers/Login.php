@@ -14,12 +14,31 @@ class Login extends CI_Controller{
      */
     public function __construct(){
         parent::__construct();
+        $this->load->model('Login_d');
     }
 
 
     function signup(){
 
-        $this->load->model('Login_d');
-        $this->Login_d->makesigup();
+
+        $res = $this->Login_d->makesigup();
+
+        if ($res){
+
+            echo "Successfully Sign up";
+        }
     }
+
+    function signin(){
+
+        $ret = $this->Login_d->makesignin();
+        if ($ret){
+        $dashboard = 'Welcome/loggedinuser';
+        if ($this->Login_d->loggedin() == true) {
+            redirect($dashboard);
+        }
+            redirect($dashboard) ;
+    }
+    }
+
 }

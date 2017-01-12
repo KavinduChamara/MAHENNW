@@ -94,7 +94,7 @@ label{
         <div class="main">
             <div class="container_24">
             	<div class="wrapper">
-                	<form class="form-horizontal" action="<?php base_url('Login/signup'); ?>" method="post">
+                	<form class="form-horizontal" action="<?php echo base_url('index.php/Login/signup'); ?>" method="post">
 
 
     <h3><align ="centre">SIGNUP</h3>

@@ -33,4 +33,9 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('signin2');
     }
+
+    public function loggedinuser(){
+
+        $this->load->view('user/home');
+}
 }

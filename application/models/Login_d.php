@@ -24,17 +24,57 @@ class Login_d extends CI_Model{
             'FirstName' => $this->input->post('FirstName'),
             'LastName' => $this->input->post('LastName'),
             'UID' => $this->input->post('UID'),
-            'Email' => $this->input->post('E-mail'),
+            'Email' => $this->input->post('Email'),
             'Address' => $this->input->post('Address'),
             'Telephone' => $this->input->post('Telephone'),
             'Password' => $this->input->post('Password'),
             
 
         );
-        #$res = $this->db->insert('user_details', $user_data);
+        $res = $this->db->insert('user_details', $user_data);
         if ($res) {
             return true;
         }
     }
+
+
+    function makesignin(){
+
+        $inputuid = $this->input->post('inputuid');
+        $inputpwd = $this->input->post('inputpwrd');
+
+
+        $sql = "SELECT * FROM user_details WHERE UID=$inputuid AND password ='$inputpwd'";
+        $query = $this->db->query($sql);
+        $res  = $query->result();
+        $rows  = $query->num_rows();
+
+        foreach ($res as $result){
+            $fname = $result->FirstName;
+            $lname = $result->LastName;
+
+        }
+
+        if ($rows == 1) {
+            $this->session->set_userdata(
+                array(
+                    'userfname'  => $fname,
+                    'userlname'  => $lname,
+                    'loggedin'  => TRUE,
+                ));
+            return  true;
+        }
+
+    }
+
+
+
+    function logout(){
+        $this->session->sess_destroy();
+    }
+    function loggedin(){
+        return (bool)$this->session->userdata('loggedin');
+    }
+
 
     }
