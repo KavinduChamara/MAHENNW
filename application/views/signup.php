@@ -14,9 +14,9 @@
     <meta name="author" content="Your name">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">    
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-1.7.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url('public/css/style.css'); ?>">
+    <script src="<?php echo base_url('public/js/jquery-1.7.1.min.js'); ?>"></script>
+    <script src="<?php echo base_url('public/js/script.js'); ?>"></script>
 
 
 <style>
@@ -94,7 +94,7 @@ label{
         <div class="main">
             <div class="container_24">
             	<div class="wrapper">
-                	<form class="form-horizontal" action="" method="post">
+                	<form class="form-horizontal" action="<?php base_url('Login/signup'); ?>" method="post">
 
 
     <h3><align ="centre">SIGNUP</h3>
@@ -177,53 +177,3 @@ label{
 
 
 </html>
-
-<?php
-include"db.php";
-
-if ( isset( $_POST['insert'] ) ) { 
-
-    $fname=$_POST['FirstName'];
-    $lname=$_POST['LastName'];
-    $uid=$_POST['UID'];
-    $email=$_POST['Email'];
-    $address=$_POST['Address'];
-    $telno=$_POST['Telephone'];
-    $pswrd=$_POST['Password'];
-    $cnfpaswrd=$_POST['ConfirmPassword'];
-
-    if($pswrd == $cnfpaswrd){
-        $sql = "INSERT INTO user_details (FirstName, LastName, UID, Email, Address, Telephone) VALUES ('$fname', '$lname', '$uid', '$email', '$address', '$telno')";
-	$sql = "INSERT INTO user_id (UID, Password) VALUES ('$uid', '$pswrd')";
-            if (mysqli_query($conn, $sql)) {
-                
-                    $conn->close();
-                    ?>
-                    <script>
-                    alert("Recorded successfully");
-                    </script>
-                    <?php
-            }
-            else {
-                echo "Invalid record: " . mysqli_error($conn);
-                    $conn->close();
-                    ?>
-                    <script>
-                    alert("Invalid record: " . mysqli_error($conn));
-                    </script>
-                    <?php
-            }
-
-        
-    }
-    else{
-        $conn->close();
-        ?>
-        <script>
-        alert("Password mis matched");
-        </script>
-        <?php
-    }
-}
-
-?>
