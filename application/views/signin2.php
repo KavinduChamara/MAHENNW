@@ -8,7 +8,9 @@
 
 	<label >User ID :</label>
 		<input type="text" name="inputuid">
-	<button type="submit">View Profile</button>
+	<label >Password :</label>
+		<input type="text" name="inputpwrd">
+	<button type="submit">Login</button>
 	
 
 </form>
