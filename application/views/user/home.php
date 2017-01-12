@@ -74,9 +74,9 @@
     <a href="<?php echo base_url('index.php/Orders/newOrder'); ?>"><button>New order</button></a>
     <a href="<?php echo base_url('index.php/Orders/viewOrder'); ?>"><button>View orders</button></a>
     <a href="<?php echo base_url('index.php/Welcome/viewprofile'); ?>"><button>View profile</button></a>
-    <a href="<?php echo base_url('index.php/Welcome/logout'); ?>"><button>Logout</button></a>
+        <a href="<?php echo base_url('index.php/Welcome/logout'); ?>"><button>Logout</button></a>
 
-
+<?php echo $this->session->userdata('userfname'). " " .$this->session->userdata('userlname') ; ?>
 </body>
 
 
