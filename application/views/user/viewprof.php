@@ -1,25 +1,14 @@
+
+
 <?php
-    
-include'db.php';
-
-    $saveuid=$_POST['inputuid'];
-
-$sql = "SELECT * FROM user_details WHERE UID='$saveuid'";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        $Address= $row['Address'];
-        $UID= $row['UID'];
-        $LastName= $row['LastName'];
-        $FirstName= $row['FirstName'];
-        
-        $Telephone= $row['Telephone'];
-        $Email= $row['Email'];
-    }
+echo $this->session->userdata('uid');
 
 
 
+$logedin = $this->session->userdata('loggedin');
+if ($logedin != true){
+    redirect('Welocme/index');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -115,33 +104,33 @@ label{
 
     <div class="form-group">
         <label for="FirstName">First Name :</label>
-            <input type="text" class="form-control" name="FirstName" required value=<?php echo $FirstName ?> >
+            <input type="text" class="form-control" name="FirstName" required value="<?php echo $this->session->userdata('userfname'); ?>" >
 
     </div>
 
     <div class="form-group">
         <label for="LastName">Last Name :</label>
-            <input type="text" class="form-control" name="LastName" value=<?php echo $LastName ?> >
+            <input type="text" class="form-control" name="LastName" value="<?php echo $this->session->userdata('userlname');?>" >
     </div>  
 
     <div class="form-group">
         <label for="NIC">User ID :</label>
-            <input type="text" class="form-control" name="inputuid" value=<?php echo $UID ?> /readonly>
+            <input type="text" class="form-control" name="inputuid" value="<?php echo $this->session->userdata('uid');?>" readonly>
     </div>
     
     <div class="form-group">
         <label for="E-mail">E-mail :</label> 
-            <input type="email" class="form-control" name="Email" required value=<?php echo $Email ?>>
+            <input type="email" class="form-control" name="Email"  value="<?php echo $this->session->userdata('email');?> ">
     </div>
 
     <div class="form-group">
         <label for="Address">Address :</label>
-            <input type="text" class="form-control" name="Address" required value=<?php echo $Address ?> >
+            <input type="text" class="form-control" name="Address"  value="<?php echo $this->session->userdata('add');?>" >
     </div>
         
     <div class="form-group">
         <label for="Telephone">Telephone Number :</label>
-            <input type="text" class="form-control" name="Telephone" required value=<?php echo $Telephone ?>>
+            <input type="text" class="form-control" name="Telephone"  value="<?php echo $this->session->userdata('tel');?>" >
     </div>  
     
     <div class="form-group">
@@ -187,62 +176,7 @@ label{
 </body>
 </html>
 
-<?php
-include"db.php";
 
-if ( isset( $_POST['update'] ) ) { 
-
-$FirstName=$_POST['FirstName'];
-$LastName=$_POST['LastName'];
-$Email=$_POST['Email'];
-$Address=$_POST['Address'];
-$Telephone=$_POST['Telephone'];
-$saveuid=$_POST['inputuid'];
-
-$sql = "UPDATE user_details SET FirstName='$FirstName', LastName='$LastName', Email='$Email', Address='$Address', Telephone='$Telephone' WHERE UID='$saveuid'";
-
-    if (mysqli_query($conn, $sql)) {
-        echo "<script>";
-        echo "alert('Profile Updated Successfully')";
-        echo "</script>";
-    } 
-    else {
-        echo "Error updating record: " . mysqli_error($conn);
-    }
-
-$conn->close();
-
-}
-
-if ( isset( $_POST['delete'] ) ) { 
-
-
-$saveuid=$_POST['inputuid'];
-
-$sql = "DELETE FROM user_details WHERE UID='$saveuid'";
-
-    if (mysqli_query($conn, $sql)) {
-        echo "<script>";
-        echo "alert('Profile Deleted Successfully')";
-        echo "</script>";
-    } 
-    else {
-        echo "Error deleting record: " . mysqli_error($conn);
-    }
-
-$conn->close();
-
-}
-
-
-}else{
-    $conn->close();
-    ?>
-    <script>
-    alert("not registered");
-    </script>
-    <?php
-}
 
 
 

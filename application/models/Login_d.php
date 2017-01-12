@@ -52,6 +52,9 @@ class Login_d extends CI_Model{
         foreach ($res as $result){
             $fname = $result->FirstName;
             $lname = $result->LastName;
+            $email = $result->Email;
+            $add = $result->Address;
+            $tel = $result->Telephone;
 
         }
 
@@ -60,6 +63,10 @@ class Login_d extends CI_Model{
                 array(
                     'userfname'  => $fname,
                     'userlname'  => $lname,
+                    'email'  => $email,
+                    'add'  => $add,
+                    'tel'  => $tel,
+                    'uid'  => $inputuid,
                     'loggedin'  => TRUE,
                 ));
             return  true;

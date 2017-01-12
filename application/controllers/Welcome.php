@@ -38,4 +38,16 @@ class Welcome extends CI_Controller {
 
         $this->load->view('user/home');
 }
+
+
+    public function viewprofile(){
+
+        $this->load->view('user/viewprof');
+    }
+
+    public function logout(){
+        $this->load->model('Login_d');
+        $this->Login_d->logout();
+        redirect('Welcome/index');
+    }
 }
