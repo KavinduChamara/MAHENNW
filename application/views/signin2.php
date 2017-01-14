@@ -16,7 +16,7 @@
 </form>
 <div>
 	<br>
-	<a href="signup.php"><button>Signup</button></a>
+	<a href="signup"><button>Signup</button></a>
 </div>
 </div>
 </body>

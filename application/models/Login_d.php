@@ -31,12 +31,14 @@ class Login_d extends CI_Model{
             
 
         );
+	if(($this->input->post('Password'))==($this->input->post('ConfirmPassword'))){
         $res = $this->db->insert('user_details', $user_data);
         if ($res) {
             return true;
         }
+	
     }
-
+}
 
     function makesignin(){
 

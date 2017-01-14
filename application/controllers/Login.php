@@ -25,8 +25,15 @@ class Login extends CI_Controller{
 
         if ($res){
 
-            echo "Successfully Sign up";
+            echo "<script>";
+        	echo "alert('Account created !!')";
+        	echo "</script>";
         }
+	else{
+		echo "<script>";
+        	echo "alert('Password mismatched')";
+        	echo "</script>";	
+	}
     }
 
     function signin(){

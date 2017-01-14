@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from cdn.livedemo00.template-help.com:82/wt_40305/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Nov 2016 11:50:41 GMT -->
 <head>
-  	<title>Company</title>
+  	<title>Home</title>
   	<meta charset="utf-8">
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
@@ -33,7 +33,7 @@
     	<div class="main">        	
             <nav>
                 <ul class="sf-menu">
-                    <li class="active"><a href="index-2.html">company</a></li>
+                    <li class="active"><a href="<?php echo base_url('index.php/Welcome/index'); ?>">Home</a></li>
                     <li><a href="index-1.html">products</a>
                     	<ul>
                             <li><a href="more.html">Catalog Printing</a></li>
@@ -53,9 +53,9 @@
                     </li>
                     <li><a href="index-3.html">specials</a></li>
                     <li><a href="index-4.html">services</a></li>
-                    <li><a href="index-5.html">creations</a></li>
+                    <li><a href="<?php echo base_url('index.php/Welcome/creations'); ?>">creations</a></li>
                     <li><a href="index-6.html">mail</a></li>
-                    <li><a href="index-6.html">profile</a></li>
+                    <li><a href="<?php echo base_url('index.php/Welcome/signin'); ?>">profile</a></li>
                 </ul>
             </nav>            
             <div class="clear"></div>            
@@ -64,7 +64,7 @@
         	<div class="header-box3">
             <div class="main">
             <figure class="head-img1"><img src="<?php echo base_url('public/images/head.png') ; ?>" alt=""></figure>
-            	<h1><a class="logo" href="index-2.html">Digital print</a></h1>
+            	<h1><a class="logo" href="<?php echo base_url('index.php/Welcome/index'); ?>">Digital print</a></h1>
                 <div class="inner1">
                 	<span>Call Us Toll Free</span><i> +1 234 56 78</i>
                     <strong>our expert Staff Is Standing By to answer your questions</strong>
@@ -200,11 +200,11 @@
             <!-- {%FOOTER_LINK} -->
         </div>
         <ul class="foot-menu">
-                    <li class="first1"><a class="active" href="index-2.html">company</a></li>
+                    <li class="first1"><a class="active"<?php echo base_url('index.php/Welcome/index'); ?>">Home</a></li>
                     <li><a href="index-1.html">products</a></li>
                     <li><a href="index-3.html">specials</a></li>
                     <li><a href="index-4.html">services</a></li>
-                    <li><a href="index-5.html">creations</a></li>
+                    <li><a href="<?php echo base_url('index.php/Welcome/creations'); ?>">creations</a></li>
                     <li class="last1"><a href="index-6.html">contacts</a></li>
                 </ul>
         <div class="clear"></div>        

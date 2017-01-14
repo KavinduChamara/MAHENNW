@@ -50,4 +50,13 @@ class Welcome extends CI_Controller {
         $this->Login_d->logout();
         redirect('Welcome/index');
     }
+
+	public function creations()
+    {
+        $this->load->view('creations');
+    }
+	public function more_freelan()
+    {
+        $this->load->view('more_freelan');
+    }
 }
