@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="<?php echo base_url('public/css/style.css'); ?>">
     <script src="<?php echo base_url('public/js/jquery-1.7.1.min.js'); ?>"></script>
     <script src="<?php echo base_url('public/js/script.js'); ?>"></script>
+	<link rel="stylesheet" href="<?php echo base_url('public/bootstrap/css/bootstrap.css'); ?>">
 <style>
 
 form{

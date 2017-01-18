@@ -20,7 +20,8 @@ if ($logedin != true){
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
     <meta name="author" content="Your name">
-    <link rel="icon" href="<?php echo base_url('public/images/favicon.ico'); ?>" type="image/x-icon">    
+    <link rel="icon" href="<?php echo base_url('public/images/favicon.ico'); ?>" type="image/x-icon"> 
+	<link rel="stylesheet" href="<?php echo base_url('public/bootstrap/css/bootstrap.css'); ?>">   
 	<link rel="shortcut icon" href="<?php echo base_url('public/images/favicon.ico'); ?>" type="image/x-icon" />
     <link rel="stylesheet" href="<?php echo base_url('public/css/style.css'); ?>">
     <script src="<?php echo base_url('public/js/jquery-1.7.1.min.js'); ?>"></script>
@@ -28,7 +29,7 @@ if ($logedin != true){
 <style>
 
 form{
-    max-width: 400px;
+    max-width: 500px;
     margin: 2% auto;
     padding: 10px 20px;
     background: #e4f0ff;
@@ -101,7 +102,7 @@ label{
                 <div class="wrapper">    
 <form class="form-horizontal" action="" method="post">
 
-    <h2>MY PROFILE</h2>
+    <h3><align ="centre">MY PROFILE</h3>
 
     <div class="form-group">
         <label for="FirstName">First Name :</label>
