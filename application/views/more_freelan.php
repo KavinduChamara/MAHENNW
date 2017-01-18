@@ -76,55 +76,68 @@
                             <p>Freelan Enterprises (Pvt) Ltd is one of the prominent consumer goods manufacturing company in Southern Sri Lanka. They came into the Industry on a sole proprietor basis in 1984 and grew up to be a company currently having 250 employees in the region. We are really delighted that we are the pioneers behind their marketing advertisements on printed media.</p>
                              <div class="car-wrapper">
                         <div class="carousel">
-                            <ul>
+                                     <ul>
                                 <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan1.jpg" alt=""></figure>
-                                        <div class="clear"></div>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan1.jpg'); ?>" alt=""></figure>
+											<div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan2.jpg" alt=""></figure>
-                                        <div class="clear"></div>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan2.jpg'); ?>" alt=""></figure>
+										
+										
+                                        
+                                      <div class="clear"></div>
+									  
+									  
                                         </div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="grid_6">
-                                        <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan3.jpg" alt=""></figure>
-                                        <div class="clear"></div>
-                                        </div>
-                                        <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan4.jpg" alt=""></figure>
-                                        <div class="clear"></div>
-                                        </div>
+										
                                     </article>
                                 </li>
                                  <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan5.jpg" alt=""></figure>
-                                        <div class="clear"></div>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan3.jpg'); ?>" alt=""></figure>
+											<div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan6.jpg" alt=""></figure>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan4.jpg'); ?>" alt=""></figure>
+                                        
                                         <div class="clear"></div>
                                         </div>
+					
                                     </article>
                                 </li>
-                                <li>
+                                  <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan7.jpg" alt=""></figure>
-                                        <div class="clear"></div>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan5.jpg'); ?>" alt=""></figure>
+											<div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="images/freelan8.jpg" alt=""></figure>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan6.jpg'); ?>" alt=""></figure>
+                                        
                                         <div class="clear"></div>
                                         </div>
+					
                                     </article>
                                 </li>
+                                 <li>
+                                    <article class="grid_6">
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan7.jpg'); ?>" alt=""></figure>
+											<div class="clear"></div>
+                                        </div>
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelan8.jpg'); ?>" alt=""></figure>
+                                        
+                                        <div class="clear"></div>
+                                        </div>
+					
+                                    </article>
+                                </li>
+								 
                             </ul>    
                             <div class="clear"></div>
                         </div>

@@ -59,4 +59,59 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('more_freelan');
     }
+	
+	public function more_manamperi()
+    {
+        $this->load->view('more_manamperi');
+    }
+	
+	public function more_apex()
+    {
+        $this->load->view('more_apex');
+    }
+	
+	public function more_bakeshop()
+    {
+        $this->load->view('more_bakeshop');
+    }
+	
+	public function more_harischandra()
+    {
+        $this->load->view('more_harischandra');
+    }
+	
+	public function more_kotuwe_kade()
+    {
+        $this->load->view('more_kotuwe_kade');
+    }
+	
+	public function more_nippolac()
+    {
+        $this->load->view('more_nippolac');
+    }
+	
+	public function more_ruhunu_royal()
+    {
+        $this->load->view('more_ruhunu_royal');
+    }
+	
+	public function more_skylite()
+    {
+        $this->load->view('more_skylite');
+    }
+	
+	public function more_eueni()
+    {
+        $this->load->view('more_eueni');
+    }
+	
+	public function more_nileka()
+    {
+        $this->load->view('more_nileka');
+    }
+	
+	public function more_indra()
+    {
+        $this->load->view('more_indra');
+    }
 }

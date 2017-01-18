@@ -93,12 +93,12 @@
                                         </div>
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/manamperi.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_manamperi.html">Manamperi Hardware</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_manamperi'); ?>">Manamperi Hardware</a>
                                         <div class="clear"></div>
                                         </div>
 					<div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/sky2.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_skylite.html">Skylite Cinema</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_skylite'); ?>">Skylite Cinema</a>
                                         <div class="clear"></div>
                                         </div>
                                     </article>
@@ -107,17 +107,17 @@
                                     <article class="grid_6">
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/nippolac2logo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_nippolac.html">Nippolac Paints</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_nippolac'); ?>">Nippon Paints</a>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/harischandralogo.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_harischandra.html">Harischandra Mills</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_harischandra'); ?>">Harischandra Mills</a>
                                         <div class="clear"></div>
                                         </div>
 					 <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/euenilogo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_eueni.html">Eueni Salon</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_eueni'); ?>">Eueni Salon</a>
                                         <div class="clear"></div>
                                         </div>
                                     </article>
@@ -126,17 +126,17 @@
                                     <article class="grid_6">
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/ruhunuroyallogo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_ruhunu_royal.html">Ruhunu Royal</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_ruhunu_royal'); ?>">Ruhunu Royal</a>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/kotuwekade.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_kotuwe_kade.html">Kotuwe Kade</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_kotuwe_kade'); ?>">Kotuwe Kade</a>
                                         <div class="clear"></div>
                                         </div>
 					<div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/nilekalogo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_nileka.html">Nileka Jewellery</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_nileka'); ?>">Nileka Jewellery</a>
                                         <div class="clear"></div>
                                         </div>
                                     </article>
@@ -145,17 +145,17 @@
                                     <article class="grid_6">
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/Apexlogo.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_apex.html">Apex Business Academy</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_apex'); ?>">Apex Business Academy</a>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/walgamabakeshop.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_bakeshop.html">Walgama Bake Shop</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_bakeshop'); ?>">Walgama Bake Shop</a>
                                         <div class="clear"></div>
                                         </div>
 					<div class="page5-box1">
                                         <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/indralogo.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="more_indra.html">Indra Traders</a>
+                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_indra'); ?>">Indra Traders</a>
                                         <div class="clear"></div>
                                         </div>
 
