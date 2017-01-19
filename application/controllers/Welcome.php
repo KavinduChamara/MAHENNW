@@ -59,4 +59,45 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('more_freelan');
     }
+	
+	public function products()
+    {
+        $this->load->view('products');
+    }
+	
+	public function boxes()
+    {
+        $this->load->view('boxes');
+    }
+	
+	public function handbill()
+    {
+        $this->load->view('handbill');
+    }
+	
+	public function stickers()
+    {
+        $this->load->view('stickers');
+    }
+	
+	public function weddingcards()
+    {
+        $this->load->view('weddingcards');
+    }
+	
+	public function adddata()
+    {
+        $this->load->view('adddata');
+    }
+	
+	public function deletedata()
+    {
+        $this->load->view('deletedata');
+    }
+	
+	public function updatedata()
+    {
+        $this->load->view('updatedata');
+    }
+	
 }
