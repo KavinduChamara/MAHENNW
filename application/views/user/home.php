@@ -94,11 +94,13 @@ label{
             <div class="container_24">
                 <div class="wrapper"> 
 
-    <a href="<?php echo base_url('index.php/Orders/newOrder'); ?>"><button>New order</button></a>
-    <a href="<?php echo base_url('index.php/Orders/viewOrder'); ?>"><button>View orders</button></a>
-    <a href="<?php echo base_url('index.php/Welcome/viewprofile'); ?>"><button>View profile</button></a>
-        <a href="<?php echo base_url('index.php/Welcome/logout'); ?>"><button>Logout</button></a>
-
+   
+	<a href="<?php echo base_url('index.php/Welcome/viewprofile'); ?>"><button type="submit" class="btn btn-primary btn-block" name="insert"><span class="glyphicon glyphicon-user"></span>View profile</button></a>
+	<a href="<?php echo base_url('index.php/Orders/newOrder'); ?>"><button type="submit" class="btn btn-primary btn-block" name="insert"><span class="glyphicon glyphicon-user"></span>New Order</button></a>
+	<a href="<?php echo base_url('index.php/Orders/viewOrder'); ?>"><button type="submit" class="btn btn-primary btn-block" name="insert"><span class="glyphicon glyphicon-user"></span>View Order</button></a>
+	<a href="<?php echo base_url('index.php/Welcome/logout'); ?>"><button type="submit" class="btn btn-primary btn-block" name="insert"><span class="glyphicon glyphicon-user"></span>Logout</button></a>
+	<a href="<?php echo base_url('index.php/Welcome/viewprofile'); ?>"><button type="submit" class="btn btn-primary btn-block" name="insert"><span class="glyphicon glyphicon-user"></span>Change Password</button></a>
+	
 <?php echo $this->session->userdata('userfname'). " " .$this->session->userdata('userlname') ; ?>
 </body>
 
