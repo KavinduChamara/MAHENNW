@@ -99,8 +99,11 @@ label{
     <section id="contentnew">
         <div class="main">
             <div class="container_24">
-                <div class="wrapper">    
-<form class="form-horizontal" action="" method="post">
+                <div class="wrapper"> 
+ 
+
+
+<form class="form-horizontal" action="<?php echo base_url('index.php/Welcome/changeprof'); ?>" method="post">
 
     <h3><align ="centre">MY PROFILE</h3>
 
@@ -137,12 +140,16 @@ label{
     
     <div class="form-group">
             <br>
-            <button type="submit" class="btn btn-primary btn-block" name="update"><span class="glyphicon glyphicon-user"></span>  UPDATE</button>
+            <a href=""><button type="submit" class="btn btn-primary btn-block" name="update"><span class="glyphicon glyphicon-user"></span>  UPDATE</button>
             <br>
+</form>
+            <form action="<?php echo base_url('index.php/Welcome/deleteprof'); ?>" method="post">  
             <button type="submit" class="btn btn-primary btn-block" name="delete"><span class="glyphicon glyphicon-trash"></span>  DELETE</button>
+
+            </form>
         </div>  
     </div>  
-</form>
+
 
                     <div class="clear"></div>
                     

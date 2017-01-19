@@ -85,5 +85,42 @@ class Login_d extends CI_Model{
         return (bool)$this->session->userdata('loggedin');
     }
 
+	function updateprof(){
 
+
+        $user_data = array(
+            'FirstName' => $this->input->post('FirstName'),
+            'LastName' => $this->input->post('LastName'),
+            'Email' => $this->input->post('Email'),
+            'Address' => $this->input->post('Address'),
+            'Telephone' => $this->input->post('Telephone')
+            
+            
+
+        );
+        $uid = $this->session->userdata('uid');
+	       
+        $res = $this->db->update('user_details', $user_data,"UID=$uid");
+        if ($res) {
+            return true;
+        
+	
     }
+}
+
+
+
+    function deleteprof(){
+
+        $uid = $this->session->userdata('uid');
+        $sql = "delete from user_details where UID=$uid";
+        $query = $this->db->query($sql);
+       
+            return true;
+        
+    
+    }
+}
+
+
+   

@@ -154,5 +154,38 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('updatedata');
     }
+public function changeprof()
+    {
+
+        if (isset($_POST['delete'])) {
+    $url = base_url('index.php/Welcome/deleteprof'); 
+}else{
+
+    $this->load->model('Login_d');
+	$d = $this->Login_d->updateprof();
+
+    if ($d==true) {
+
+            $this->load->model('Login_d');
+        $this->Login_d->logout();
+        redirect('Welcome/index');
+    }
+    }
+}
+
+
+    public function deleteprof()
+    {
+
+    $this->load->model('Login_d');
+    $d = $this->Login_d->deleteprof();
+
+   if ($d==true) {
+
+            $this->load->model('Login_d');
+        $this->Login_d->logout();
+        redirect('Welcome/index');
+    }
+    }
 
 }
