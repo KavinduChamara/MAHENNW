@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
   	<title>Creations</title>
   	<meta charset="utf-8">
@@ -23,7 +22,7 @@
             <nav>
                 <ul class="sf-menu">
                     <li><a href="<?php echo base_url('index.php/Welcome/index'); ?>">company</a></li>
-                    <li ><a href="<?php echo base_url('index.php/Welcome/products'); ?>">products</a>
+                    <li class="active"><a href="<?php echo base_url('index.php/Welcome/products'); ?>">products</a>
                         <ul>
                             <li><a href="<?php echo base_url('index.php/Welcome/handbill'); ?>">Handbills</a></li>
                             <li><a href="<?php echo base_url('index.php/Welcome/boxes'); ?>">Boxes</a></li>
@@ -50,9 +49,9 @@
         <div class="header-box2">
         	<div class="header-box3">
             <div class="main">           
-            	<h1><a class="logo" href="<?php echo base_url('index.php/Welcome/index'); ?>">Digital print</a></h1>
+            	<h1><a class="logo" href="index-2.html">Digital print</a></h1>
                 <div class="inner1">
-                	<span>Contact Us </span><i><br> +94 702 470 762</i>
+                	<span>Call Us</span><i>&nbsp; +94 702 470 762</i>
                     <strong>our expert Staff Is Standing By to answer your questions</strong>
                 </div>                
             </div>
@@ -68,15 +67,8 @@
             <div class="container_24">
             	<div class="wrapper">
                 	<article class="grid_24">
-                    	<h2 class="p9">Banner and Signage Description</h2>
-                        <p class="p21">Our design excellence has been able to extend along with each and every industry in 
-						Sri Lanka. Many customers from different industries across the market reach us to get their promotions
-						done at the best level of creativity. At the end of their campaigns the best complement we get is 
-						their success story.<br>We have designed Banners, Signage Boards, Visiting Cards, Product Wrappers 
-						and Printed advertisements for the best companies and product brands in the area.<br>The strength of 
-						their marketing plans is the designs we have created. These designs have made the companies to 
-						achieve the competitive advantage out of the industry they are lying on.</p>
-                        
+                    	<h2 class="p9">Stickers</h2>
+                        <p class="p21"></p>
                     </article>
                     <div class="clear"></div>
                     <div class="car-wrapper">
@@ -85,18 +77,11 @@
                                 <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/freelanmatara.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_freelan'); ?>">Freelan Enterprises</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img1.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/manamperi.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_manamperi'); ?>">Manamperi Hardware</a>
-                                        <div class="clear"></div>
-                                        </div>
-					<div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/sky2.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_skylite'); ?>">Skylite Cinema</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img2.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                     </article>
@@ -104,18 +89,11 @@
                                 <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/nippolac2logo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_nippolac'); ?>">Nippon Paints</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img3.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/harischandralogo.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_harischandra'); ?>">Harischandra Mills</a>
-                                        <div class="clear"></div>
-                                        </div>
-					 <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/euenilogo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_eueni'); ?>">Eueni Salon</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img4.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                     </article>
@@ -123,18 +101,11 @@
                                 <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/ruhunuroyallogo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_ruhunu_royal'); ?>">Ruhunu Royal</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img5.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/kotuwekade.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_kotuwe_kade'); ?>">Kotuwe Kade</a>
-                                        <div class="clear"></div>
-                                        </div>
-					<div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/nilekalogo.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_nileka'); ?>">Nileka Jewellery</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img6.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                     </article>
@@ -142,33 +113,68 @@
                                 <li>
                                     <article class="grid_6">
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/Apexlogo.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_apex'); ?>">Apex Business Academy</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img7.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
                                         <div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/walgamabakeshop.jpg'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_bakeshop'); ?>">Walgama Bake Shop</a>
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img8.jpg'); ?>" alt=""></figure>
                                         <div class="clear"></div>
                                         </div>
-					<div class="page5-box1">
-                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/indralogo.png'); ?>" alt=""></figure>
-                                        <a class="link2" href="<?php echo base_url('index.php/Welcome/more_indra'); ?>">Indra Traders</a>
-                                        <div class="clear"></div>
-                                        </div>
-
-
-
                                     </article>
                                 </li>
-                                                             
-                                                               
-                                                                
-                                
+                                <li>
+                                    <article class="grid_6">
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img9.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img10.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="grid_6">
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img11.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img12.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="grid_6">
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img13.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img14.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="grid_6">
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img15.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                        <div class="page5-box1">
+                                        <figure class="page5-img1 img-bot"><img src="<?php echo base_url('public/images/stickers/img16.jpg'); ?>" alt=""></figure>
+                                        <div class="clear"></div>
+                                        </div>
+                                    </article>
+                                </li>
                              </ul>
                              <div class="clear"></div>
                         </div>
-                                           
+                        <a class="prev1 car-button" data-type="prevPage">prev</a>
+                    <a class="next1 car-button" data-type="nextPage" style = "margin-left:88%;">next</a>                    
                     </div>  
                     <div class="clear"></div>
                 </div>
@@ -180,15 +186,15 @@
     <footer>
         <div class="main">
         <div class="foot-page1">
-        	<span>mahen graphics</span><a href="index-7.html"></a>
+        	<span>Mahen Graphics</span>
             <div class="clear"></div>
         </div>
         <ul class="foot-menu">
-                    <li class="first1"><a href="<?php echo base_url('index.php/Welcome/index'); ?>">home</a></li>
+                    <li class="first1"><a href="index-2.html">company</a></li>
                     <li><a href="index-1.html">products</a></li>
                     <li><a href="index-3.html">specials</a></li>
                     <li><a href="index-4.html">services</a></li>
-                    <li><a class="active" href="index-5.html">creations</a></li>
+                    <li><a class="active" href="index-5.html">gallery</a></li>
                     <li class="last1"><a href="index-6.html">contacts</a></li>
                 </ul>
         <div class="clear"></div>        
@@ -197,5 +203,5 @@
 </div>
 </body>
 
-<!-- Mirrored from cdn.livedemo00.template-help.com:82/wt_40305/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Nov 2016 11:52:27 GMT -->
+
 </html>

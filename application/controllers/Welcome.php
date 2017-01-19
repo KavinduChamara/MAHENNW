@@ -60,6 +60,7 @@ class Welcome extends CI_Controller {
         $this->load->view('more_freelan');
     }
 	
+<<<<<<< HEAD
 	public function more_manamperi()
     {
         $this->load->view('more_manamperi');
@@ -114,4 +115,46 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('more_indra');
     }
+=======
+	public function products()
+    {
+        $this->load->view('products');
+    }
+	
+	public function boxes()
+    {
+        $this->load->view('boxes');
+    }
+	
+	public function handbill()
+    {
+        $this->load->view('handbill');
+    }
+	
+	public function stickers()
+    {
+        $this->load->view('stickers');
+    }
+	
+	public function weddingcards()
+    {
+        $this->load->view('weddingcards');
+    }
+	
+	public function adddata()
+    {
+        $this->load->view('adddata');
+    }
+	
+	public function deletedata()
+    {
+        $this->load->view('deletedata');
+    }
+	
+	public function updatedata()
+    {
+        $this->load->view('updatedata');
+    }
+	
+>>>>>>> 42a10f1ed68e3d7999efd226f21733686fa3e279
 }

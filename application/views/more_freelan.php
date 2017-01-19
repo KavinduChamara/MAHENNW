@@ -22,28 +22,27 @@
     	<div class="main">        	
             <nav>
                 <ul class="sf-menu">
-                    <li><a href="index-2.html">company</a></li>
-                    <li><a href="index-1.html">products</a>
-                    	<ul>
-                            <li><a href="more.html">Catalog Printing</a></li>
-                            <li><a href="more.html">Pad Printing</a></li>
-                            <li><a href="more.html">Label Printing</a></li>
-                            <li><a href="more.html">Envelope Printing</a>
-                            	<ul>
-                                    <li><a href="more.html">Key Applications</a></li>
-                                    <li><a href="more.html">Information Request Form</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="more.html">Business Card Printing</a></li>
-                            <li><a href="more.html">Flyer Printing</a></li>
-                            <li><a href="more.html">Check Printing</a></li>
-                            <li><a href="more.html#">Post Card Printing</a></li>
+                    <li><a href="<?php echo base_url('index.php/Welcome/index'); ?>">company</a></li>
+                    <li class="active"><a href="<?php echo base_url('index.php/Welcome/products'); ?>">products</a>
+                        <ul>
+                            <li><a href="<?php echo base_url('index.php/Welcome/handbill'); ?>">Handbills</a></li>
+                            <li><a href="<?php echo base_url('index.php/Welcome/boxes'); ?>">Boxes</a></li>
+                            <li><a href="<?php echo base_url('index.php/Welcome/weddingcards'); ?>">Wedding Cards<a></li>
+                            <li><a href="<?php echo base_url('index.php/Welcome/stickers'); ?>">Stikers</a></li>  
                         </ul>
                     </li>
-                    <li><a href="index-3.html">specials</a></li>
-                    <li><a href="index-4.html">services</a></li>
-                    <li class="active"><a href="index-5.html">creations</a></li>
-                    <li><a href="index-6.html">mail</a></li>
+                    <li><a href="#">specials</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="<?php echo base_url('index.php/Welcome/creations'); ?>">Creations</a></li>
+                    <li><a href="index-6.php">mail</a></li>
+					<li><a href="<?php echo base_url('index.php/Welcome/signin'); ?>">profile</a></li>
+                    <li><a href="#">Payments</a>
+                        <ul>
+                            <li><a href="<?php echo base_url('index.php/Welcome/adddata'); ?>">Add Payments</a></li>
+                            <li><a href="<?php echo base_url('index.php/Welcome/updatedata'); ?>">Update Payments</a></li>
+                            <li><a href="<?php echo base_url('index.php/Welcome/deletedata'); ?>">Delete Payments</a></li>
+                          </ul>
+                    </li>
                 </ul>
             </nav>            
             <div class="clear"></div>            
