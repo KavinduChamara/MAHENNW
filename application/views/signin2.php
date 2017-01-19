@@ -1,14 +1,8 @@
-<?php
-
-
-
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from cdn.livedemo00.template-help.com:82/wt_40305/more.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Nov 2016 11:52:07 GMT -->
+
 <head>
   	<title>SIGNIN</title>
   	<meta charset="utf-8">
@@ -25,7 +19,7 @@
 </head>
 <body id="page7">
 <div class="bg">
-<!--==============================header=================================-->
+
     <header>
     	<div class="main">        	
             <nav>
@@ -71,7 +65,7 @@
         </div>
     </header>
 
-<!--==============================content================================-->
+
     <section id="contentnew">
         <div class="main">
             <div class="container_24">

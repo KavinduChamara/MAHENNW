@@ -59,8 +59,7 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('more_freelan');
     }
-	
-<<<<<<< HEAD
+
 	public function more_manamperi()
     {
         $this->load->view('more_manamperi');
@@ -115,7 +114,7 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('more_indra');
     }
-=======
+
 	public function products()
     {
         $this->load->view('products');
@@ -155,6 +154,5 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('updatedata');
     }
-	
->>>>>>> 42a10f1ed68e3d7999efd226f21733686fa3e279
+
 }
